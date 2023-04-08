@@ -149,22 +149,11 @@ logo=("""\033[1;97m
      
                                                                                                                                                                                      
                                                                                                                                                                                      
-   SSSSSSSSSSSSSSS HHHHHHHHH     HHHHHHHHH               AAA               HHHHHHHHH     HHHHHHHHHRRRRRRRRRRRRRRRRR   IIIIIIIIII               AAA               RRRRRRRRRRRRRRRRR   
- SS:::::::::::::::SH:::::::H     H:::::::H              A:::A              H:::::::H     H:::::::HR::::::::::::::::R  I::::::::I              A:::A              R::::::::::::::::R  
-S:::::SSSSSS::::::SH:::::::H     H:::::::H             A:::::A             H:::::::H     H:::::::HR::::::RRRRRR:::::R I::::::::I             A:::::A             R::::::RRRRRR:::::R 
-S:::::S     SSSSSSSHH::::::H     H::::::HH            A:::::::A            HH::::::H     H::::::HHRR:::::R     R:::::RII::::::II            A:::::::A            RR:::::R     R:::::R
-S:::::S              H:::::H     H:::::H             A:::::::::A             H:::::H     H:::::H    R::::R     R:::::R  I::::I             A:::::::::A             R::::R     R:::::R
-S:::::S              H:::::H     H:::::H            A:::::A:::::A            H:::::H     H:::::H    R::::R     R:::::R  I::::I            A:::::A:::::A            R::::R     R:::::R
- S::::SSSS           H::::::HHHHH::::::H           A:::::A A:::::A           H::::::HHHHH::::::H    R::::RRRRRR:::::R   I::::I           A:::::A A:::::A           R::::RRRRRR:::::R 
-  SS::::::SSSSS      H:::::::::::::::::H          A:::::A   A:::::A          H:::::::::::::::::H    R:::::::::::::RR    I::::I          A:::::A   A:::::A          R:::::::::::::RR  
-    SSS::::::::SS    H:::::::::::::::::H         A:::::A     A:::::A         H:::::::::::::::::H    R::::RRRRRR:::::R   I::::I         A:::::A     A:::::A         R::::RRRRRR:::::R 
-       SSSSSS::::S   H::::::HHHHH::::::H        A:::::AAAAAAAAA:::::A        H::::::HHHHH::::::H    R::::R     R:::::R  I::::I        A:::::AAAAAAAAA:::::A        R::::R     R:::::R
-            S:::::S  H:::::H     H:::::H       A:::::::::::::::::::::A       H:::::H     H:::::H    R::::R     R:::::R  I::::I       A:::::::::::::::::::::A       R::::R     R:::::R
-            S:::::S  H:::::H     H:::::H      A:::::AAAAAAAAAAAAA:::::A      H:::::H     H:::::H    R::::R     R:::::R  I::::I      A:::::AAAAAAAAAAAAA:::::A      R::::R     R:::::R
-SSSSSSS     S:::::SHH::::::H     H::::::HH   A:::::A             A:::::A   HH::::::H     H::::::HHRR:::::R     R:::::RII::::::II   A:::::A             A:::::A   RR:::::R     R:::::R
-S::::::SSSSSS:::::SH:::::::H     H:::::::H  A:::::A               A:::::A  H:::::::H     H:::::::HR::::::R     R:::::RI::::::::I  A:::::A               A:::::A  R::::::R     R:::::R
-S:::::::::::::::SS H:::::::H     H:::::::H A:::::A                 A:::::A H:::::::H     H:::::::HR::::::R     R:::::RI::::::::I A:::::A                 A:::::A R::::::R     R:::::R
- SSSSSSSSSSSSSSS   HHHHHHHHH     HHHHHHHHHAAAAAAA                   AAAAAAAHHHHHHHHH     HHHHHHHHHRRRRRRRR     RRRRRRRIIIIIIIIIIAAAAAAA                   AAAAAAARRRRRRRR     RRRRRRR
+   
+  \x1b[1;91m____ _  _ ____ _  _ ____ _ ____ ____ 
+[__  |__| |__| |__| |__/ | |__| |__/ 
+___] |  | |  | |  | |  \ | |  | |  \ 
+                                     
                                                                                                                                                                                      
                                                                                                                                                                                      
                                                                                                                                                                                      
