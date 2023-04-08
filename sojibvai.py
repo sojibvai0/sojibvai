@@ -194,7 +194,7 @@ def menu():
 				print(logo)
 				
 				linex()
-				print(' Example : /storage/emulated/0/SHAHRIAR)
+				print(' Example : /storage/emulated/0/SHAHRIAR'.txt)
 				linex()
 				file = input(' Put file path\033[1;37m: ')
 				try:
